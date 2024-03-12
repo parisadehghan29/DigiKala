@@ -1,0 +1,239 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  font-family: var(--font-family);
+}
+
+.shegeft__farda {
+  width: 1568px;
+  height: 110px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px auto;
+  .shegeft__farda__center {
+    width: 1568px;
+    height: inherit;
+    display: flex;
+    align-items: center;
+    background-color: #eee1e3;
+    background: linear-gradient(267.6deg, #eee1e3);
+    padding: 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    justify-content: space-between;
+    .shegeft__farda__right {
+      display: flex;
+      flex-flow: row wrap;
+      align-items: center;
+      justify-content: center;
+      column-gap: 10px;
+      position: relative;
+      font-size: 10px;
+
+      .shegeft__farda__right2 {
+        width: 250px;
+        height: 28px;
+        line-height: 0;
+        margin-right: 20px;
+        margin-left: 20px;
+        display: block;
+        font-size: 10px;
+        position: relative;
+        & svg {
+          display: inline-block;
+          overflow: hidden;
+          position: absolute;
+          top: calc(50% - 28px / 2);
+          left: calc(50% - 28px / 2);
+          right: 0;
+          bottom: 0;
+          text-align: center;
+          cursor: pointer;
+          font-size: 10px;
+        }
+      }
+      .text {
+        width: 206px;
+        height: 23px;
+        margin: 0px 20px;
+        font-size: 11px;
+        font-weight: 400;
+        line-height: 23px;
+        color: #0c0c0c;
+        cursor: pointer;
+      }
+
+      .times__center {
+        width: 108px;
+        height: 28px;
+        gap: 4px;
+        align-items: center;
+        display: flex;
+        .second {
+          width: 28px;
+          height: 28px;
+          background-color: #fff;
+          border-radius: 4px;
+          justify-content: center;
+          align-items: center;
+          flex-direction: column;
+          display: flex;
+          .second__1 {
+            width: 19px;
+            height: 32px;
+            font-size: 15px;
+            font-weight: 700;
+            line-height: 32px;
+            color: #23254e;
+            text-align: center;
+            display: block;
+            cursor: pointer;
+          }
+        }
+        .minute {
+          width: 28px;
+          height: 28px;
+          background-color: #fff;
+          border-radius: 4px;
+          justify-content: center;
+          align-items: center;
+          flex-direction: column;
+          display: flex;
+          .minute__1 {
+            width: 19px;
+            height: 32px;
+            font-size: 15px;
+            font-weight: 700;
+            line-height: 32px;
+            color: #23254e;
+            text-align: center;
+            display: block;
+            cursor: pointer;
+          }
+        }
+
+        .houre {
+          width: 28px;
+          height: 28px;
+          background-color: #fff;
+          border-radius: 4px;
+          justify-content: center;
+          align-items: center;
+          flex-direction: column;
+          display: flex;
+          .houre__1 {
+            width: 19px;
+            height: 32px;
+            font-size: 15px;
+            font-weight: 700;
+            line-height: 32px;
+            color: #23254e;
+            text-align: center;
+            display: block;
+            cursor: pointer;
+          }
+        }
+      }
+    }
+
+    .shegeft__farda__left {
+      width: 636px;
+      height: 74px;
+      display: flex;
+      justify-content: flex-start;
+      margin-right: 40px;
+      align-items: center;
+      .shegeft__farda__left1 {
+        width: 492px;
+        height: 74px;
+        justify-content: flex-end;
+        flex-wrap: wrap;
+        overflow: hidden;
+        align-items: center;
+        display: flex;
+        & a {
+          width: 74px;
+          height: 74px;
+          margin-bottom: 16px;
+          margin-left: 8px;
+          padding: 8px;
+          background-color: #fff;
+          border-radius: 50%;
+          display: flex;
+          flex-flow: nowrap wrap;
+          align-items: center;
+          position: relative;
+          text-decoration: none;
+          overflow: hidden;
+          justify-content: center;
+
+          .shegeft__farda__img1 img {
+            width: 58px;
+            height: 58px;
+            object-fit: contain;
+            display: inline-block;
+            overflow: hidden;
+            position: relative;
+          }
+
+          & div:nth-of-type(2) {
+            width: 30px;
+            height: 20px;
+            color: #fff;
+            padding: 0 4px;
+            background-color: #d32f2f;
+            border-radius: 16px;
+            justify-content: center;
+            align-items: center;
+            display: flex;
+            position: absolute;
+            left: 34px;
+            top: 48px;
+            font-size: 12px;
+            font-weight: bold;
+            & span {
+              font-family: var(--font-family-homa);
+            }
+          }
+        }
+      }
+      .shegeft__farda__left2 {
+        width: 144px;
+        height: 50px;
+        background-color: #fff;
+        color: #ef394e;
+        border-radius: 9999px;
+        padding: 12px 20px;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+
+        & span {
+          width: 80px;
+          height: 26px;
+          display: inline;
+          white-space: nowrap;
+          font-size: 12px;
+          line-height: 26px;
+          font-family: var(--font-family-homa);
+        }
+        .svg__left2 {
+          width: 18px;
+          height: 18px;
+          margin-right: 8px;
+          display: flex;
+          font-size: 10px;
+        }
+        & svg {
+          width: inherit;
+          height: 18px;
+          overflow: hidden;
+          line-height: 18px;
+        }
+      }
+    }
+  }
+}

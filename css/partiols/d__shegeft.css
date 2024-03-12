@@ -1,0 +1,239 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  font-family: var(--font-family);
+}
+
+.d__shegeft {
+  width: 1568px;
+  height: 110px;
+  margin: 0 auto;
+  display: block;
+  .d__shegeft__main {
+    margin-top: 8px;
+    padding: 4px 28px 8px;
+    flex-direction: row;
+    background-color: #f0f0f1;
+    border-radius: 16px;
+    overflow: hidden;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    display: flex;
+    position: relative;
+    .shegeft__main1 {
+      background: url(/statics/img/svg/typography/earlyAccessPatternPlus.svg)
+          right center no-repeat,
+        url(/statics/img/svg/typography/earlyAccessPatternPlusMobile.svg) left
+          center no-repeat;
+      z-index: 1;
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      display: block;
+      cursor: pointer;
+    }
+    .shegeft__main2 {
+      border: 1px solid #f0f0f1;
+      border-radius: 16px;
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      opacity: 0.1;
+      background: linear-gradient(
+        274.36deg,
+        var(--color-plus-700) 10%,
+        var(--color-neutral-100) 100%
+      );
+      background-color: #b665a4;
+      display: block;
+      cursor: pointer;
+    }
+    .d__shegeft__main__right {
+      width: 461px;
+      height: 83px;
+      align-items: center;
+      flex-direction: column;
+      display: flex;
+      cursor: pointer;
+      .svg {
+        width: 461px;
+        height: 83px;
+        align-items: center;
+        flex-direction: column;
+        display: flex;
+        cursor: pointer;
+      }
+    }
+    .d__shegeft__main__left {
+      width: 268px;
+      height: 78px;
+      margin-right: 16px;
+      justify-content: flex-start;
+      align-items: center;
+      display: flex;
+      z-index: 1;
+      cursor: pointer;
+      .d__shegeft__main__left__1 {
+        padding-right: 20px;
+        white-space: nowrap;
+        flex-direction: column;
+        display: flex;
+        cursor: pointer;
+        .left__top {
+          width: 248px;
+          height: 33px;
+          display: flex;
+          align-items: center;
+          margin-bottom: 4px;
+          white-space: nowrap;
+          cursor: pointer;
+          .svg {
+            width: 20px;
+            height: 20px;
+            display: flex;
+            margin-left: 8px;
+            white-space: nowrap;
+            cursor: pointer;
+          }
+          .left__top__1 {
+            width: 153px;
+            height: 33px;
+            font-size: 16px;
+            font-weight: 700;
+            line-height: 33px;
+            color: #b12ba4;
+            white-space: nowrap;
+            cursor: pointer;
+          }
+        }
+        .left__bottom {
+          width: 250px;
+          height: 40px;
+          color: #941b80;
+          flex-wrap: nowrap;
+          display: flex;
+          align-items: center;
+          white-space: nowrap;
+          cursor: pointer;
+          .one {
+            width: 40px;
+            height: 40px;
+            padding: 4px 12px;
+            background-color: #fff;
+            border-radius: 8px;
+            align-items: center;
+            flex-direction: column;
+            display: flex;
+            color: #941b80;
+            white-space: nowrap;
+            cursor: pointer;
+            .second {
+              width: 19px;
+              height: 22px;
+              font-size: 15px;
+              font-weight: 700;
+              line-height: 22px;
+              color: #941b80;
+              white-space: nowrap;
+            }
+            .second__1 {
+              width: 14px;
+              height: 10px;
+              font-size: 7px;
+              color: #941b80;
+              white-space: nowrap;
+            }
+          }
+          .two {
+            width: 40px;
+            height: 40px;
+            margin: 0px 12px;
+            padding: 4px 12px;
+            background-color: #fff;
+            border-radius: 8px;
+            align-items: center;
+            display: flex;
+            flex-direction: column;
+            white-space: nowrap;
+            color: #941b80;
+            cursor: pointer;
+            .minute {
+              width: 19px;
+              height: 22px;
+              font-size: 15px;
+              font-weight: 700;
+              line-height: 22px;
+              color: #941b80;
+              white-space: nowrap;
+            }
+            .minute__1 {
+              width: 17px;
+              height: 10px;
+              font-size: 7px;
+              color: #941b80;
+              white-space: nowrap;
+            }
+          }
+          .three {
+            width: 40px;
+            height: 40px;
+            padding: 4px 12px;
+            background-color: #fff;
+            border-radius: 8px;
+            align-items: center;
+            display: flex;
+            flex-direction: column;
+            color: #941b80;
+            white-space: nowrap;
+            cursor: pointer;
+            .hour {
+              width: 11px;
+              height: 22px;
+              font-size: 15px;
+              font-weight: 700;
+              line-height: 22px;
+              color: #941b80;
+              white-space: nowrap;
+              cursor: pointer;
+            }
+            .hour__1 {
+              width: 18px;
+              height: 10px;
+              font-size: 7px;
+              color: #941b80;
+              white-space: nowrap;
+              cursor: pointer;
+            }
+          }
+          .four {
+            width: 68px;
+            height: 26px;
+            margin-right: 16px;
+            font-size: 12px;
+            font-weight: 700;
+            line-height: 26px;
+            color: #941b80;
+            white-space: nowrap;
+            cursor: pointer;
+          }
+          .five {
+            width: 16px;
+            height: 16px;
+            margin-right: 10px;
+            display: flex;
+            color: #941b80;
+            white-space: nowrap;
+            cursor: pointer;
+          }
+        }
+      }
+    }
+  }
+}

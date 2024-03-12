@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  font-family: var(--font-family);
+}
+.container__baner__3 {
+  width: 1210px;
+  height: 167px;
+  margin: 10px auto;
+  max-width: 1210px;
+  display: block;
+  .container__baner__3__center {
+    width: inherit;
+    height: inherit;
+    display: flex;
+    flex-wrap: wrap;
+    .w__full {
+      height: inherit;
+      position: relative;
+      width: calc(100% + 0px);
+      display: block;
+      text-decoration: none;
+      .h__full {
+        width: 1210px;
+        height: 167px;
+        line-height: 0;
+        border-radius: 16px;
+        display: block;
+        cursor: pointer;
+        & img {
+          width: 1210px;
+          height: 167px;
+          object-fit: cover;
+          border-radius: 16px;
+          display: inline-block;
+          overflow: hidden;
+          position: relative;
+          line-height: 0;
+        }
+      }
+    }
+  }
+}

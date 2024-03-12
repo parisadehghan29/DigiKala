@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  font-family: var(--font-family);
+}
+.story__shegeft {
+  width: 1568px;
+  height: 200px;
+  margin: 0 auto;
+  flex-grow: 1;
+  display: block;
+  .story__shegeft__py__5 {
+    width: inherit;
+    height: inherit;
+    padding: 20px 0;
+    display: flex;
+    .shegeft__center__1 {
+      width: inherit;
+      height: 166px;
+      .mystory {
+        position: relative;
+        overflow: hidden;
+        z-index: 1;
+        display: block;
+        .swiper-wrapper {
+          position: relative;
+          z-index: 1;
+          display: flex;
+          .change__story__shegeft {
+            width: 12px;
+            height: 16px;
+            margin-left: 24px;
+            flex-shrink: 0;
+            position: relative;
+            display: block;
+            .shegeft__change__center {
+              width: 114px;
+              height: 166px;
+              padding: 8px 0px;
+              background-color: #f0f0f1;
+              border-radius: 8px;
+              align-items: center;
+              flex-direction: column;
+              cursor: pointer;
+              display: flex;
+              font-size: 10px;
+              text-decoration: none;
+              .shegeft__change__1 {
+                width: 90px;
+                height: 90px;
+                border-radius: 50%;
+                line-height: 0;
+                margin: 0px 12px 8px;
+                display: block;
+                cursor: pointer;
+              }
+              .text {
+                width: 100px;
+                height: 26px;
+                font-size: 12px;
+                font-weight: 700;
+                line-height: 26px;
+                color: #0c0c0c;
+                text-align: center;
+                padding: 0px 4px;
+              }
+            }
+
+            .shegeft__change {
+              width: 114px;
+              height: 166px;
+              padding: 8px 0px;
+              border-radius: 8px;
+              align-items: center;
+              flex-direction: column;
+              cursor: pointer;
+              display: flex;
+              font-size: 10px;
+              text-decoration: none;
+              .shegeft__change__1 {
+                width: 90px;
+                height: 90px;
+                border-radius: 50%;
+                line-height: 0;
+                margin: 0px 12px 8px;
+                display: block;
+                cursor: pointer;
+              }
+              .text {
+                width: 100px;
+                height: 26px;
+                font-size: 12px;
+                font-weight: 700;
+                line-height: 26px;
+                color: #0c0c0c;
+                text-align: center;
+                padding: 0px 4px;
+                cursor: pointer;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

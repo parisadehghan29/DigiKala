@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  font-family: var(--font-family);
+}
+.pishnahad {
+  width: 1210px;
+  height: 380px;
+  margin: 0 auto 20px;
+  display: block;
+  margin-bottom: 30px;
+  .pishnahad__center {
+    border-radius: 16px;
+    position: relative;
+    display: block;
+   
+    .text {
+      width: 1210px;
+      height: 76px;
+      padding: 16px 0px;
+      text-align: center;
+      display: block;
+      & h2 {
+        width: 1210px;
+        height: 44px;
+        line-height: 44px;
+        font-size: 20px;
+        color: #0c0c0c;
+        display: block;
+        text-align: center;
+        font-weight: 500;
+        cursor: auto;
+      }
+    }
+
+    .border {
+      width: 1200px;
+      height: 310px;
+      border: 1px solid #e0e0e2;
+      border-radius: 5px;
+      margin-top: 8px;
+      display: block;
+      .mypishnahad {
+        margin: 0 auto;
+        position: relative;
+        overflow: hidden;
+        z-index: 1;
+        display: block;
+        .swiper-slide {
+          width: 172px;
+          height: 309px;
+          .mypishnahad__change {
+            width: 172px;
+            height: 309px;
+            flex-grow: 1;
+            position: relative;
+            display: block;
+
+            .styles__link {
+              width: 172px;
+              height: 154px;
+              display: block;
+              text-decoration: none;
+              cursor: pointer;
+              border: 1px solid #e0e0e2;
+              .py-4 {
+                width: 172px;
+                height: 154px;
+                padding: 16px 4px;
+                align-items: center;
+                display: flex;
+                flex-direction: column;
+                position: relative;
+                cursor: pointer;
+                .mypishnahad__change__first {
+                  width: 67px;
+                  height: 67px;
+                  padding: 12px;
+                  background-color: #f0f0f1;
+                  border-radius: 50%;
+                  overflow: hidden;
+                  justify-content: center;
+                  align-items: center;
+                  display: flex;
+                  position: relative;
+                  cursor: pointer;
+                  .widgetLeafCategory {
+                    width: 43px;
+                    height: 43px;
+                    line-height: 0;
+                    mix-blend-mode: multiply;
+                    position: relative;
+                    display: block;
+                    cursor: pointer;
+                    & img {
+                      width: 43px;
+                      height: 43px;
+                      object-fit: contain;
+                      display: inline-block;
+                      overflow: hidden;
+                      position: relative;
+                      cursor: pointer;
+                    }
+                  }
+                }
+                & h4 {
+                  width: 145px;
+                  height: 30px;
+                  display: -webkit-box;
+                  -webkit-box-orient: vertical;
+                  overflow: hidden;
+                  -webkit-line-clamp: 1;
+                  font-size: 14px;
+                  font-weight: 500;
+                  line-height: 30px;
+                  color: #0c0c0c;
+                  text-align: center;
+                  margin-top: 8px;
+                  cursor: pointer;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

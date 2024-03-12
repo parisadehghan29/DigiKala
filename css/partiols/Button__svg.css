@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  font-family: var(--font-family);
+}
+
+.Button__svg {
+  width: 48px;
+  height: 48px;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 48px;
+  position: fixed;
+  left: 50px;
+  bottom: 10px;
+  padding: 12px;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  border-radius: 50%;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  background-color: #ef4056;
+  color: #fff;
+  .svg__center {
+    align-items: center;
+    display: flex;
+    .styles__FabButton {
+      align-items: center;
+      display: flex;
+    }
+  }
+}

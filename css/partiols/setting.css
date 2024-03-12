@@ -1,0 +1,40 @@
+*,
+*::placeholder {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  font-family: var(--font-family, --font-family-sans, --font-family-homa);
+}
+@font-face {
+  font-family: IRANYEKAN;
+  src: url("../../fonts/IRANYekanWeb.eot");
+  src: url("../../fonts/IRANYekanWeb.ttf");
+  src: url("../../fonts/IRANYekanWeb.woff");
+  src: url("../../fonts/IRANYekanWeb.woff2");
+}
+
+@font-face {
+  font-family: HOMA;
+  src: url(../../fonts/HOMA/BHoma.eot);
+  src: url(../../fonts/HOMA/BHoma.ttf);
+  src: url(../../fonts/HOMA/BHoma.woff);
+  src: url(../../fonts/HOMA/BHoma.woff2);
+}
+
+@font-face {
+  font-family: IRANSANS;
+  src: url(../../fonts/sans/IRANSansWeb.eot);
+  src: url(../../fonts/sans/IRANSansWeb.ttf);
+  src: url(../../fonts/sans/IRANSansWeb.woff);
+  src: url(../../fonts/sans/IRANSansWeb.woff2);
+}
+
+:root {
+  --font-family: IRANYEKAN;
+  --font-family-sans: IRANSANS;
+  --font-family-homa: HOMA;
+}
+.wrapper {
+  width: 100%;
+}
