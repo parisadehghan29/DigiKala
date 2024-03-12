@@ -8,7 +8,7 @@
 .story__shegeft {
   width: 1568px;
   height: 200px;
-  margin: 0 auto;
+  margin: 10px auto;
   flex-grow: 1;
   display: block;
   .story__shegeft__py__5 {
@@ -24,10 +24,10 @@
         overflow: hidden;
         z-index: 1;
         display: block;
-        .swiper-wrapper {
+        /* .swiper-wrapper {
           position: relative;
           z-index: 1;
-          display: flex;
+          display: flex; */
           .change__story__shegeft {
             width: 12px;
             height: 16px;
@@ -101,7 +101,7 @@
               }
             }
           }
-        }
+        /* } */
       }
     }
   }
